@@ -138,6 +138,8 @@
 			{
 				"name": "Set variable1",
 				"type": "SetVariable",
+				"state": "Inactive",
+				"onInactiveMarkAs": "Succeeded",
 				"dependsOn": [
 					{
 						"activity": "GitHubMetadata",
@@ -153,7 +155,10 @@
 				"userProperties": [],
 				"typeProperties": {
 					"variableName": "githubmetadata",
-					"value": ""
+					"value": {
+						"value": "@activity('GitHubMetadata').output",
+						"type": "Expression"
+					}
 				}
 			}
 		],
