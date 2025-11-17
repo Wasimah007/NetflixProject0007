@@ -165,19 +165,19 @@
 				"type": "array",
 				"defaultValue": [
 					{
-						"folde_name": "netflix_cast",
+						"folder_name": "netflix_cast",
 						"file_name": "netflix_cast.csv"
 					},
 					{
-						"folde_name": "netflix_category",
+						"folder_name": "netflix_category",
 						"file_name": "netflix_category.csv"
 					},
 					{
-						"folde_name": "netflix_countries",
+						"folder_name": "netflix_countries",
 						"file_name": "netflix_countries.csv"
 					},
 					{
-						"folde_name": "netflix_directors",
+						"folder_name": "netflix_directors",
 						"file_name": "netflix_directors.csv"
 					}
 				]
